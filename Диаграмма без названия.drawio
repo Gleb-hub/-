@@ -1,9 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T21:15:20.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" version="24.0.5" etag="x3Mlk0s14pSPwpVB3Z4K" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T21:24:47.086Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="Pbs6dL-VGJfQaqi-qHQX" version="24.0.5" type="github">
   <diagram name="Страница — 1" id="_fmonxUpHUdNP1ODhZei">
-    <mxGraphModel>
+    <mxGraphModel dx="1078" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-10" value="Андрей&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-15" value="Конфигурационная" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="590" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-16" value="Склады" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-15">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-17" value="Перевозчики" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-15">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="150" width="520" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-2" value="Склад 1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-33">
+          <mxGeometry y="210" width="220" height="60" as="geometry">
+            <mxRectangle x="380" y="290" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-14" value="Заказы склада" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-2">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-6" value="Перевозчик" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-33">
+          <mxGeometry width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-19" value="Заказы перевозчика" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-20" value="Склад 2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-33">
+          <mxGeometry x="300" y="210" width="220" height="60" as="geometry">
+            <mxRectangle x="380" y="290" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-21" value="Заказы склада" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-20">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-22" value="Перевозчик" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-33">
+          <mxGeometry x="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-23" value="Заказы перевозчика" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-22">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-24" value="Перевозчик" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-33">
+          <mxGeometry x="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-25" value="Заказы перевозчика" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NI4X1xekqhBQs2MjVAoi-24">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NI4X1xekqhBQs2MjVAoi-33" source="NI4X1xekqhBQs2MjVAoi-2" target="NI4X1xekqhBQs2MjVAoi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="420" as="sourcePoint" />
+            <mxPoint x="200" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NI4X1xekqhBQs2MjVAoi-33" source="NI4X1xekqhBQs2MjVAoi-2" target="NI4X1xekqhBQs2MjVAoi-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="114" y="220" as="sourcePoint" />
+            <mxPoint x="86" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NI4X1xekqhBQs2MjVAoi-33" source="NI4X1xekqhBQs2MjVAoi-2" target="NI4X1xekqhBQs2MjVAoi-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="124" y="230" as="sourcePoint" />
+            <mxPoint x="96" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NI4X1xekqhBQs2MjVAoi-33" source="NI4X1xekqhBQs2MjVAoi-20" target="NI4X1xekqhBQs2MjVAoi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="114" y="220" as="sourcePoint" />
+            <mxPoint x="86" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NI4X1xekqhBQs2MjVAoi-33" source="NI4X1xekqhBQs2MjVAoi-20" target="NI4X1xekqhBQs2MjVAoi-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="220" as="sourcePoint" />
+            <mxPoint x="249" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NI4X1xekqhBQs2MjVAoi-33" source="NI4X1xekqhBQs2MjVAoi-20" target="NI4X1xekqhBQs2MjVAoi-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="220" as="sourcePoint" />
+            <mxPoint x="411" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="NI4X1xekqhBQs2MjVAoi-15" target="NI4X1xekqhBQs2MjVAoi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="580" as="sourcePoint" />
+            <mxPoint x="490" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI4X1xekqhBQs2MjVAoi-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="NI4X1xekqhBQs2MjVAoi-15" target="NI4X1xekqhBQs2MjVAoi-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="600" as="sourcePoint" />
+            <mxPoint x="377" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
