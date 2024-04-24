@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T09:53:46.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="JbQYkJcUJ8Q46caQhzsJ" version="24.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T09:55:48.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="sUaCyY_bMid6ZAyevuNE" version="24.2.9" type="github">
   <diagram name="Страница — 1" id="JhtNd9AlwU0v45HNGyWB">
     <mxGraphModel dx="1181" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="310" y="20" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e8Ut4EIya1tVT318Z422-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="210" width="30" height="60" as="geometry" />
+          <mxGeometry x="951.5" y="420" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vk59389lkCiMREhfPJi9-2" value="Внешние системы" style="rounded=1;textDirection=ltr;direction=west;" vertex="1" parent="1">
           <mxGeometry x="30" y="150" width="120" height="220" as="geometry" />
@@ -16,13 +16,8 @@
         <mxCell id="Vk59389lkCiMREhfPJi9-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-12" target="Vk59389lkCiMREhfPJi9-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vk59389lkCiMREhfPJi9-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-12" target="Vk59389lkCiMREhfPJi9-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="790" y="155" />
-              <mxPoint x="790" y="100" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Vk59389lkCiMREhfPJi9-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-12" target="Vk59389lkCiMREhfPJi9-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vk59389lkCiMREhfPJi9-12" value="Подсистема работы с БД&lt;br&gt;&lt;table style=&quot;text-align: start; margin-left: 5.4pt; border-collapse: collapse; border: medium;&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; class=&quot;MsoTableGrid&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border: 1pt solid black; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Запись данных в БД&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Выгрузка данных в оперативную память&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Графическое отображение данных&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="501.5" y="100" width="267" height="110" as="geometry" />
@@ -39,8 +34,11 @@
         <mxCell id="Vk59389lkCiMREhfPJi9-15" value="Подсистема авторизации&lt;br&gt;&lt;table style=&quot;text-align: start; margin-left: 5.4pt; border-collapse: collapse; border: medium;&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; class=&quot;MsoTableGrid&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border: 1pt solid black; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Регистрация пользователей&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Авторизация пользователей&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="300" width="270" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="Vk59389lkCiMREhfPJi9-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-16" target="Vk59389lkCiMREhfPJi9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vk59389lkCiMREhfPJi9-16" value="Подсистема работы с полльзователем&lt;br&gt;&lt;table style=&quot;text-align: start; margin-left: 5.4pt; border-collapse: collapse; border: medium;&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; class=&quot;MsoTableGrid&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border: 1pt solid black; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Аутентификация пользователей&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Использование личного кабинета&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Техническая поддержка&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="195" width="253" height="130" as="geometry" />
+          <mxGeometry x="840" y="280" width="253" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Vk59389lkCiMREhfPJi9-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-17" target="Vk59389lkCiMREhfPJi9-12">
           <mxGeometry relative="1" as="geometry" />
@@ -77,26 +75,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vk59389lkCiMREhfPJi9-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-12" target="Vk59389lkCiMREhfPJi9-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="645" y="220" as="sourcePoint" />
-            <mxPoint x="645" y="310" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="790" y="155" />
-              <mxPoint x="790" y="228" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Vk59389lkCiMREhfPJi9-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-16" target="Vk59389lkCiMREhfPJi9-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="420" as="sourcePoint" />
-            <mxPoint x="510" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="790" y="293" />
-              <mxPoint x="790" y="355" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Vk59389lkCiMREhfPJi9-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-14" target="Vk59389lkCiMREhfPJi9-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="420" as="sourcePoint" />
@@ -107,8 +85,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vk59389lkCiMREhfPJi9-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vk59389lkCiMREhfPJi9-36" target="Vk59389lkCiMREhfPJi9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vk59389lkCiMREhfPJi9-36" value="Подсистема поиска и просмотра&lt;table style=&quot;text-align: start; margin-left: 5.4pt; border-collapse: collapse; border: medium;&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; class=&quot;MsoTableGrid&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border: 1pt solid black; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Возможность просмотра трафика за месяц&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Возможность просмотра трафика отдельных пользователей&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 233.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;311&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNoSpacing&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Возможность поиска пользователей по ключам&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="40" width="340" height="140" as="geometry" />
+          <mxGeometry x="820" y="100" width="340" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk59389lkCiMREhfPJi9-42" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="20" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
